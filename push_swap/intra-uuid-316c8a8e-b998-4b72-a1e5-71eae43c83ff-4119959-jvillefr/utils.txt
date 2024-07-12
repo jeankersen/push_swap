@@ -1,0 +1,9 @@
+`ruby -e "puts (-200..200).to_a.shuffle.join(' ')"`
+
+ARG=`ruby -e "puts (0..4).to_a.shuffle.join(' ')"`; ./push_swap $ARG | wc -l
+
+python3 pyviz.py `ruby -e "puts (0..4).to_a.shuffle.join(' ')"`
+
+gcc main.c swap.c rotate.c parse.c sort_more.c  sort_three.c sort_five.c 
+push_other.c display.c reverse.c push.c sort.c
+ ../libft/libft.a -I../include/push_swap.h -o push_swap
