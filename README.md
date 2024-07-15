@@ -1,11 +1,5 @@
 # push\_swap
 
-_Swap push is strange, isn't it???_
-
-![A visual example of push_swap with a small stack](./assets/push_swap_small.gif)
-
-## Introduction
-
 This project comprises an interesting case study regarding sorting algorithms and its performances, being part of the core curriculum of all 42 schools worldwide. The task is simple: given a sequence of random numbers disposed in a stack data structure (**stack A**), sort them with the help of an empty auxiliary stack (**stack B**) and a set of specific stack operations. The operations allowed are described as follows, as written in our task:
 
 - **`sa`** : **swap a** - Swap the first 2 elements at the top of stack A. Do nothing if there is only one or no elements).
